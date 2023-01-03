@@ -1,0 +1,47 @@
+.screen__background{
+    position : absolute;
+    top : 0;
+    right : 0;
+    bottom : 0;
+    left : 0;
+    z-index : 0;
+    -webkit-clip-path : inset(0 0 0 0);
+    clip-path : inset(0 0 0 0);
+
+}
+.screen__background__shape{
+    position : absolute;
+    transform: rotate(45deg);
+}
+.screen__background__shape1{
+    height: 40rem;
+    width: 20rem;
+    border-radius: 6rem;
+    background: #7E7BB9;
+    top: 42rem;
+    right: 5rem; 
+}
+.screen__background__shape2{
+    height: 54rem;
+    width: 19rem;
+    border-radius : 3.2rem;
+    background: linear-gradient(270deg, #5D54A4, #6A679E);
+    top : -2.4rem;
+    right : 0;
+}
+.screen__background__shape3{
+    height: 22rem;
+    width: 22rem;
+    border-radius : 3.2rem;
+    background: #6C63AC;
+    top : -17.2rem;
+    right : 0;
+}
+.screen__background__shape4{
+    height: 52rem;
+    width: 52rem;
+    border-radius : 0 7.2rem 0 0;
+    background: #fff;
+    top : -5rem;
+    right : 12rem;
+}

@@ -1,0 +1,91 @@
+.screen__content{
+    height : 100%;
+    position : relative;
+    z-index:1;
+}
+.login{
+    position: absolute;
+    top : 50%;
+    left : 0;
+    transform: translateY(-50%);
+    padding-left : 2rem;
+    padding-top : 1.5rem;
+    padding-bottom : 1.5rem; 
+}
+.login__field{
+    width : 20rem;
+    margin-bottom : 4rem;
+    padding-bottom : 1rem;
+    border-bottom : 0.2rem solid rgb(175, 175, 175);
+    display: flex;
+    gap : 0.5rem;
+    transition: all 0.5s;
+}
+.login__field:hover,
+.login__field:focus-within{
+    border-bottom-color: #696692;
+}
+.login__username,
+.login__password{
+    border : none;
+    outline : none;
+    flex : 1;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+.login__icon{
+    color: #7875B5;
+}
+.login__username::placeholder,
+.login__password::placeholder{
+    text-transform: capitalize;
+    color : rgb(77, 77, 77);
+}
+.login__submit{
+    width : 27rem;
+    display: flex;
+    justify-content: space-between;
+    outline : none;
+    border : none;
+    padding : 1.8rem 2.4rem;
+    border-radius : 2.6rem;
+    background-color: #fff;
+    border: 1px solid #D4D3E8;
+    color: #4C489D;
+    font-weight: 700;
+    font-size : 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    cursor : pointer;
+    box-shadow: 0rem 0.2rem 0.2rem #5c5696;
+    transition: all 0.5s;
+}
+.login__submit:hover,
+.login__submit:active{
+    border-color : #6A679E;
+}
+.login__submit__icon{
+    font-size: 2rem;
+}
+.social-login{
+    width : 10rem;
+    height: 14rem;
+    color : #fff;
+    position: absolute;
+    bottom: 0;
+    right : 2.5rem;
+    font-weight : 700;
+    text-align: center;
+}
+.social-login__icons{
+    margin-top : 1.4rem;
+    width : 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.social-login__icon{
+    color : #fff;
+}
+.social-login__icon:hover{
+    font-size : 2.4rem;
+}
